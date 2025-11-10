@@ -101,6 +101,18 @@ React Native & Cloud Solutions Architect
 
 ---
 
+# Accept Android SDK Licenses
+yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses
+
+# Install Required SDK Components
+sdkmanager --install \
+  "platform-tools" \
+  "platforms;android-35" \
+  "platforms;android-36" \
+  "build-tools;35.0.0" \
+  "ndk;27.1.12297006"
+
+
 ## 🪪 **LICENSE (MIT)**
 
 ```text
